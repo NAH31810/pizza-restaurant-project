@@ -1,0 +1,68 @@
+body {
+background-image: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url('../images/basil-background.jpg');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed; /* This creates the 'fixed' effect */
+    background-repeat: no-repeat;
+
+color:white;
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+margin: 0;
+padding: 0;
+display: flex; /*center content horizontally*/
+flex-direction: column;
+align-items: center;
+min-height: 100vh;
+}
+    
+
+h1, h2, h3 {
+    text-shadow: 2px 2px 4px rgba(244, 239, 239, 0.5);
+        margin-bottom: 20px;
+        text-align: center;
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    background-color: rgba(0, 0, 0, 0.5); /* Adds a dark circle behind the arrow */
+    border-radius: 50%;
+    padding: 20px;
+}/* Carousel image styling */
+ .carousel-item img {
+    height: 500px;
+    object-fit:cover;
+  }
+    .menu-card {
+     font-family: 'Gochi Hand', cursive; /* This is the chalk font */
+  background-color: rgba(0, 0, 0, 0.6);
+  backdrop-filter:blur(8px); /* Blur effect for background */
+  -webkit-backdrop-filter: blur(8px);
+  /* Subtle border and rounded corners */
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  border-radius: 12px;
+  padding: 20px;
+  color: white; /* Makes text pop against dark background */
+  box-shadow: 0 8px 23px 0 rgba(0,0,0,0.8);
+  max-width: 600px;
+  margin:0 auto;
+}
+  .list-group-item { background-color: transparent !important;
+    border-color: rgba(255,255,255,0.15) !important;
+    color: white !important;
+  }
+  .list-group-item small {
+color: rgba(255, 255, 255, 0.8) !important; /*description text light gray/white */
+  }
+.list-group-item h5 {
+    font-family: 'Gochi Hand', cursive;
+    font-size: 1.5rem;
+  }
+  .price-tag {
+    font-size: 1.25rem;
+    font-weight: bold;
+    color: #ffd700; /* gold/ yellow chalk color */
+    border: 1px dashed rgba(255,255,255,0.4);
+    padding: 5px 10px;
+    border-radius: 8px;
+  }
+  
