@@ -16,7 +16,7 @@
   </head>
   <body>
     <header class="container-fluid">
-      <nav class="navbar navbar-expand-lg bg-body-tertiary">
+      <nav class="navbar navbar-expand-lg navbar-dark bg-transparent">
         <div class="container-fluid">
           <a class="navbar-brand" href="#">Gena's Pizzeria</a>
           <button
@@ -33,10 +33,15 @@
           <div class="collapse navbar-collapse" id="navbarNav">
             <ul class="navbar-nav">
               <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#">Home</a>
+                <a
+                  class="nav-link active"
+                  aria-current="page"
+                  href="#home-title"
+                  >Home</a
+                >
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">Menu</a>
+                <a class="nav-link" href="#menu-section">Menu</a>
               </li>
               <li class="nav-item">
                 <a
@@ -54,7 +59,7 @@
       </nav>
     </header>
     <div class="container text-center mt-5">
-      <h1 class="logo">Gena's Pizzeria!</h1>
+      <h1 id="home-title">Gena's Pizzeria!</h1>
       <p class="lead">
         The best New York style pizza on the West Coast.Period.
       </p>
@@ -169,7 +174,9 @@
       </div>
       <section class="menu-section my-5">
         <div class="menu-card shadow-lg p-5">
-          <h3 class="text-center text-white mb-4">Our Menu & Prices</h3>
+          <h3 id="menu-section" class="text-center text-white mb-4">
+            Our Menu & Prices
+          </h3>
           <ul class="list-group list-group-flush bg-transparent">
             <li
               class="list-group-item d-flex justify-content-between align-items-center p-3 bg-transparent text-white border-secondary"
@@ -203,7 +210,12 @@
       </section>
     </div>
 
-    <a href="https://form.jotform.com/260186995978077"> Click Here to Order </a>
+    <a
+      href="https://form.jotform.com/260186995978077"
+      class="btn btn-primary btn-lg"
+    >
+      Order Now
+    </a>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
   </body>

@@ -14,7 +14,10 @@ flex-direction: column;
 align-items: center;
 min-height: 100vh;
 }
-    
+    html {
+  scroll-behavior: smooth;
+  scroll-padding-top: 70px; /* pushes the section down so its not hidden by navbar */
+}
 
 h1, h2, h3 {
     text-shadow: 2px 2px 4px rgba(244, 239, 239, 0.5);
