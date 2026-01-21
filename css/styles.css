@@ -13,6 +13,7 @@ display: flex; /*center content horizontally*/
 flex-direction: column;
 align-items: center;
 min-height: 100vh;
+padding-bottom: 100px; /* space for footer */
 }
 .navbar-nav .nav-link {
    color: white !important;
@@ -53,6 +54,13 @@ min-height: 100vh;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Subtle shadow for readability */
     margin-bottom: 30px;
     text-align: center;
+}
+#gallery-section {
+    width: 100%;
+    max-width: 600px;
+    margin-left:auto;
+    margin-right:auto;
+  
 }
 
 h1, h2, h3 {
@@ -108,3 +116,13 @@ color: rgba(255, 255, 255, 0.8) !important; /*description text light gray/white 
     border-radius: 8px;
   }
   
+.customer-heading {
+  font-size: 2.5rem !important; /* Adjust this number to make it bigger */
+    font-weight: bold !important;
+    text-align:center;
+    margin-top: 50px;
+    margin-bottom: 30px;
+    color: white;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+
+}
