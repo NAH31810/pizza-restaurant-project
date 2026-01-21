@@ -56,7 +56,10 @@ min-height: 100vh;
 }
 
 h1, h2, h3 {
-    text-shadow: 2px 2px 4px rgba(244, 239, 239, 0.5);
+  font-weight: 700; 
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    letter-spacing: 0.5px;
         margin-bottom: 20px;
         text-align: center;
 }

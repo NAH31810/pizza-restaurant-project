@@ -8,10 +8,10 @@ This is a website to a Pizza restaurand where a customer can view the menu and p
 Technologies used are = .html and .css
 
 Future Ideas:
--add loyalty program
 
+- add loyalty program
 - expand menu
   -expand gallery
   -create specials
 - add a call us button
-  -make it more interactive
+  - make it more interactive
