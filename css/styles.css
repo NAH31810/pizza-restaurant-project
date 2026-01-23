@@ -56,11 +56,9 @@ padding-bottom: 100px; /* space for footer */
     text-align: center;
 }
 #gallery-section {
-    width: 100%;
-    max-width: 600px;
-    margin-left:auto;
-    margin-right:auto;
-  
+    width: 40%;
+    height: 40%;
+    margin: 0 auto 50px auto;
 }
 
 h1, h2, h3 {
