@@ -9,6 +9,8 @@ Technologies used are = .html and .css
 
 Future Ideas:
 
+- add about us
+- add map and location
 - add loyalty program
 - expand menu
   -expand gallery
